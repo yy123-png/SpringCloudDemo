@@ -2,6 +2,20 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Order-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/dmeo-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmeo/start/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
