@@ -9,6 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>stock-server</module>
+        <module>order-server</module>
+        <module>goods-server</module>
     </modules>
 
     <description>父工程pom文件</description>
@@ -20,11 +23,23 @@
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
         <alibaba-cloud.version>2.2.5.RELEASE</alibaba-cloud.version>
+        <mybatis-plus.version>3.5.2</mybatis-plus.version>
+        <mysql-connector.version>8.0.29</mysql-connector.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>

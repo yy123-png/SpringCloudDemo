@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/order-server-adapter/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -12,7 +14,7 @@
         <option value="$PROJECT_DIR$/Order-server/pom.xml" />
         <option value="$PROJECT_DIR$/Product-server/pom.xml" />
         <option value="$PROJECT_DIR$/ShopCart-server/pom.xml" />
-        <option value="$PROJECT_DIR$/Stock-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Stock-server/stock-server-starter/pom.xml" />
         <option value="$PROJECT_DIR$/User-server/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/dmeo/pom.xml" />
@@ -22,5 +24,10 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
   </component>
 </project>
