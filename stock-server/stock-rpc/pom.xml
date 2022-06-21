@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>stock-server-starter</artifactId>
+    <artifactId>stock-rpc</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -18,10 +18,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.yy</groupId>
-            <artifactId>stock-adapter</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>

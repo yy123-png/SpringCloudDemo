@@ -1,13 +1,12 @@
 server:
-  port: ${SERVER_PORT:10001}
+  port: 8000
 spring:
+  application:
+    name: stock-server
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_SERVER_URL:115.159.51.176:3306}/${DB_NAME:eshop}?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowMultiQueries=true
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:root}
-  main:
-    allow-bean-definition-overriding: true
+    url: jdbc:mysql://115.159.51.176:3306/eshop?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowMultiQueries=true
+    username: root
+    password: root
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
