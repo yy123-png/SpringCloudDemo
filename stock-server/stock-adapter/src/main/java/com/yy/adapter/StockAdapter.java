@@ -2,7 +2,6 @@ package com.yy.adapter;
 
 import com.yy.biz.IStockBiz;
 import com.yy.param.StockReduceParam;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +18,7 @@ public class StockAdapter {
     private IStockBiz stockBiz;
 
     @PostMapping("/stock/reduce")
-    public Boolean reduceStock(@RequestBody @Validated StockReduceParam param) {
+    public Boolean reduceStock(@RequestBody StockReduceParam param) {
         return stockBiz.reduceStock(param.getSkuId(),param.getQuantity());
     }
 }

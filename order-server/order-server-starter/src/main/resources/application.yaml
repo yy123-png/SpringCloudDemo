@@ -1,0 +1,12 @@
+server:
+  port: 11000
+spring:
+  application:
+    name: order-server
+  datasource:
+    url: jdbc:mysql://115.159.51.176:3306/eshop?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowMultiQueries=true
+    username: root
+    password: root
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true

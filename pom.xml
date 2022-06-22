@@ -11,6 +11,7 @@
     <modules>
         <module>stock-server</module>
         <module>goods-server</module>
+        <module>order-server</module>
     </modules>
 
     <description>父工程pom文件</description>
