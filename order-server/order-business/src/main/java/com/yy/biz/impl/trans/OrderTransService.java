@@ -39,7 +39,10 @@ public class OrderTransService {
                 stockReduceResult.set(Boolean.FALSE);
             }
         });
-        if (!saveBatchResult || !saveResult || !stockReduceResult.get()) {
+        boolean success = saveBatchResult && saveResult && stockReduceResult.get();
+        // 模拟 调用服务成功 本地操作失败
+        success = false;
+        if (!success) {
             throw new RuntimeException("创建订单失败!");
         }
         return Boolean.TRUE;
