@@ -7,6 +7,8 @@ spring:
     url: jdbc:mysql://115.159.51.176:3306/eshop?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowMultiQueries=true
     username: root
     password: root
+rocketmq:
+  name-server: 115.159.51.176:9876
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true

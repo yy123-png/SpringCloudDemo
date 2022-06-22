@@ -25,6 +25,7 @@
         <alibaba-cloud.version>2.2.5.RELEASE</alibaba-cloud.version>
         <mybatis-plus.version>3.5.2</mybatis-plus.version>
         <mysql-connector.version>8.0.29</mysql-connector.version>
+        <rocketmq.version>2.1.1</rocketmq.version>
     </properties>
 
 
@@ -39,6 +40,11 @@
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
