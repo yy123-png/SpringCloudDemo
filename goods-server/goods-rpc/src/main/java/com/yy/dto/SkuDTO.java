@@ -1,7 +1,5 @@
-package com.yy.dao.entity;
+package com.yy.dto;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -9,11 +7,10 @@ import java.time.LocalDateTime;
 
 /**
  * @author yeyu
- * @since 2022-06-21 17:43
+ * @since 2022-06-22 10:42
  */
 @Data
-public class Sku {
-    @TableId(type = IdType.AUTO)
+public class SkuDTO {
     private Long id;
 
     private String skuName;
@@ -23,4 +20,5 @@ public class Sku {
     private LocalDateTime createdTime;
 
     private LocalDateTime updatedTime;
+
 }
